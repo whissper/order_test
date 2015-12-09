@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+	/*
+	background: black;
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	*/
+	font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	font-size: 11pt;
+	color: #000000;
+}
+
+.sav2-form-area {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.btn {
+	margin-top: 20px;
+}
+
+.sav2-second-form, .sav2-third-form, .sav2-fourth-form, .sav2-fifth-form, .sav2-sixth-form, .postal-data {
+	display: none;
+}
+
+.respond-status, .error-status {
+	background-color: #a1feac;
+    border: 1px solid #51b36d;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.error-status {
+	background-color: #ff8383;	
+}
+
+.clear {
+	clear: both;
+}
